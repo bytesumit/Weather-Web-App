@@ -3,8 +3,8 @@ import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
 import TextField from '@mui/material/TextField';
 const SearchBox = ({app}) => {
-    const API_KEY = "f5f9908de526a3a61ee768e1a63935e7";
-    const API_URl = "https://api.openweathermap.org/data/2.5/weather";
+    const API_KEY = "your Api Key";
+    const API_URl = "Your Api Url";
 
     const getWeatherInfo = async ()=>{
         try{
